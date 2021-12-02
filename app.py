@@ -3,7 +3,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField,SubmitField
 
 app=Flask(__name__)
-app.config['SECRET_KEY']='private_key'
+app.config['SECRET_KEY']='66f90831bf9d57902846ad4bb94dbd51ec4e0235b3a6205c538e273ed79e31ee38b1a885ea8225819775a068ca761eaec89e7f99a93503e4c28fe9df'
 
 #create form class
 class NameForm(FlaskForm):
